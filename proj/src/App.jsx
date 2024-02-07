@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={()=>{setClicks(clicks + 1)}}>+</button>
+      <button onClick={()=>{setClicks(clicks - 1)}}>-</button>
       <p>
         {clicks}
       </p>
