@@ -17,11 +17,11 @@ function App() {
     </div>
       <div>
       <div>
-          <button className="test border-2" onClick={()=>{setClicks1(clicks1 + 1)}}>+</button>
-          <button className="test border-2" onClick={()=>{setClicks1(clicks1 - 1)}}>-</button>
-          <button className="test border-2" onClick={()=>{setClicks1(0)}}>0</button>
-          <button className="test border-2" onClick={()=>{setClicks1(clicks1 * 10)}}>x10</button>
-          <button className="test border-2" onClick={()=>{setClicks1(clicks1 / 10)}}>/10</button>
+          <button className="m-10" onClick={()=>{setClicks1(clicks1 + 1)}}>+</button>
+          <button className="" onClick={()=>{setClicks1(clicks1 - 1)}}>-</button>
+          <button className="" onClick={()=>{setClicks1(0)}}>0</button>
+          <button className="" onClick={()=>{setClicks1(clicks1 * 10)}}>x10</button>
+          <button className="" onClick={()=>{setClicks1(clicks1 / 10)}}>/10</button>
           <p>
             {clicks1}
           </p>
